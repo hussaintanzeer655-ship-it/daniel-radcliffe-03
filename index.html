@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Radcliffe Studio 03</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header"><div class="brand">DR Studio 03</div><nav class="nav"><a href="#timeline">Timeline</a><a href="#contact">Contact</a><button id="themeBtn" class="btn ghost">Theme</button></nav></header>
+  <section class="hero" id="home"><h1>Timeline of Works</h1><p>Sequential pieces, compact and clear.</p><button class="btn" data-action="toggle">Toggle Era</button></section>
+  <section id="timeline" class="content"><h2>Timeline</h2><ul class="timeline" aria-label="Work timeline"></ul></section>
+  <section id="contact" class="content"><h2>Contact</h2><form onsubmit="return false"><input placeholder="Name"/><input placeholder="Email" type="email"/><textarea placeholder="Message"></textarea><button class="btn">Send</button></form></section>
+  <div id="modal" class="modal" aria-hidden="true"><div class="modal-card"><p>Intro to this timeline page.</p><button class="btn" id="closeModal">Close</button></div></div>
+  <script src="script.js"></script>
+</body>
+</html>
